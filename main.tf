@@ -9,10 +9,6 @@ resource aws_vpc "hashicat" {
 
   tags = {
     Name = "${var.prefix}-vpc"
-<<<<<<< HEAD
-    
-=======
->>>>>>> d5addcae2a934c1a34ad8bbda3fb9dc7a33eb7ff
   }
 }
 
